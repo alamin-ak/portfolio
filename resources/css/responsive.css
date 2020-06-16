@@ -1,0 +1,120 @@
+
+
+@media screen and (max-width:1200px) {
+    .container {
+        width:100%;
+        padding:0 15px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+    .about-grid-container {
+        grid-template-columns:1fr;
+    
+    }
+    .about-grid-items:first-child {
+        width:70%;
+        margin:auto;
+    }
+    .process-grid-container,
+    .portfolio-grid-container {
+        grid-template-columns:repeat(2,1fr);
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .work-grid-container,
+    .testimonial-grid-container,
+    .contact-grid-container {
+        grid-template-columns:1fr;
+    }
+    
+    
+}
+
+@media screen and (max-width:480px) {
+    
+    html,
+    body {
+        font-size:8px;
+    }
+    .hero-text-box h1 {
+        font-size: 500%;
+    }
+    .hero-text-box p {
+        font-size: 180%;
+    }
+    .logo {
+        height:36px;
+    }
+    .navbar-nav{
+        font-size:360%;
+    }
+    .about-grid-items:first-child {
+        width:100%;
+    }
+    .process-grid-container,
+    .portfolio-grid-container {
+        grid-template-columns:1fr;
+    }
+    .portfolio-grid-items:nth-child(5){
+        grid-column:1/2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
